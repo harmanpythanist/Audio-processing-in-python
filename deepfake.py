@@ -92,7 +92,7 @@ with d:
                       'equalization, and more. Audio processing is used in a wide range of applications, including music production, '
                       'speech recognition, noise reduction, and various audio effects like reverb and distortion. It often involves converting'
                       ' analog audio signals into digital form for computer-based processing and can be done using software or dedicated hardware.', size=15)
-    image = Image.open('D://Django/deep_fake/audio7.jpg')
+    image = Image.open('imagesyas/audio7.jpg')
     st.image(image, caption='Audio Signals')
 
     st.write('---')
@@ -116,7 +116,7 @@ with d:
                        "the initial step in many applications such as speech recognition, noise reduction, and automatic transcription Voice detection is"
                        " used to distinguish between speech and non-speech segments in an audio signal. It identifies the presence of human speech, helping"
                        " to focus on relevant information while filtering out noise and silence.", size=15)
-    image = Image.open('D://Django/deep_fake/image_.jpg')
+    image = Image.open('imagesyas/image_.jpg')
     st.image(image, caption='Audio Signals')
 
 
